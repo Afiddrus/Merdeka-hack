@@ -1,0 +1,57 @@
+
+.btn_contact {
+    display: inline-block;
+    border-radius: 100px;
+    background-color: #F4040D;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 16px;
+    padding: 8px 8px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+   }
+   
+   .btn_contact span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    font-size: 14px;
+   }
+   .btn_contact:hover{
+    opacity: 90%;
+   }
+   
+   .btn_contact span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+   }
+   
+   .btn_contact:hover span {
+    padding-right: 15px;
+   }
+   
+   .btn_contact:hover span:after {
+    opacity: 1;
+    right: 0;
+   }
+
+   @media only screen and (max-width: 767px) {
+     .btn_contact{
+         display: none;
+     }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .btn_contact{
+        display: none;
+    }
+  }
