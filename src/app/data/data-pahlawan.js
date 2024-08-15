@@ -19,27 +19,23 @@ export const HeroName = [
     },
     {
       id: 2,
+      img: DataImages.Muhammad,
+    },
+    {
+      id: 3,
       img: DataImages.sutan,
     },
     {
-      id: 3,
-      img: DataImages.Muhammad,
-    },
-    {
-      id: 3,
-      img: DataImages.Muhammad,
-    },
-    {
       id: 4,
-      img: DataImages.Muhammad,
+      img: DataImages.JendralSoedirman,
     },
     {
       id: 5,
-      img: DataImages.Muhammad,
+      img: DataImages.KiHadjarDewantara,
     },
     {
       id: 6,
-      img: DataImages.Muhammad,
+      img: DataImages.DewiSartika,
     },
     // Add more images for each hero
   ]

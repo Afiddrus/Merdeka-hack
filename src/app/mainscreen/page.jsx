@@ -5,12 +5,16 @@ import "../styles/hero.css";
 import Sejarah from "../components/sejarah/sejarah";
 import Pahlawan from "../components/pahlawan/pahlawan";
 import Footer from "../components/footer";
+import Event from "../components/event/event";
+import Contact from "../contact/contact";
+import { Toaster } from 'react-hot-toast';
 
 export default function Home() {
 
     
   return (
     <main className=" overflow-x-hidden">
+      <Toaster/>
       <section id="hero" className="hero">
         <Hero />
       </section>
@@ -19,6 +23,9 @@ export default function Home() {
       </section>
       <section id="pahlawan">
         <Pahlawan />
+      </section>
+      <section id="event">
+        <Event />
       </section>
     </main>
   );

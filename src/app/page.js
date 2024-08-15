@@ -4,6 +4,7 @@ import Hero from "./components/Hero/hero";
 import "./styles/hero.css";
 import Sejarah from "./components/sejarah/sejarah";
 import Pahlawan from "./components/pahlawan/pahlawan";
+import Event from "./components/event/event";
 
 export default function Home() {
   return (
@@ -16,6 +17,9 @@ export default function Home() {
       </section>
       <section id="pahlawan">
         <Pahlawan />
+      </section>
+      <section id="event">
+        <Event />
       </section>
     </main>
   );
